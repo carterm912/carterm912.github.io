@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dogs are just the best.</title>
+	<title>SPACE!</title>
 </head>
 <body>
-	<h1>Dogs are man's <em>BEST</em> friend.</h1>
-	<img src="doggo.jpg">
-	<p>He may be descended from wolves, but he is <strong>so cute</strong>.</p>
-	<h2>Why dogs are the best.</h2>
+	<h1>SPACE!</h1>
+	<p>A little bit about our solar system</p>
+	<img src="featured-space-policy.jpg">
+	<h2><strong>The planets</strong></h2>
+	<p>This is a list of all the planets currently recognized by the International Planet Society.</p>
 	<ol>
-		<li>They have been our bros for at least 15,000 years.</li>
-		<li>They came from wolves(which is dope)!</li>
-		<li>Unconditional love.</li>
-		<li>Actually retrieve items you throw, unlike some <a href="https://en.wikipedia.org/wiki/Cat">pets</a>.</li>
+		<li>Mercury</li>
+		<li>Venus</li>
+		<li>Earth <--You are here</li>
+		<li>Mars</li>
+		<li>Jupiter</li>
+		<li>Saturn</li>
+		<li>Uranus</li>
+		<li>Neptune</li>
 	</ol>
-	<h3>A few downsides.</h3>
+	<H2>Other things in our Solar System</H2>
+	<p>A non-comprehensive list of things that are not planets.</p>
 	<ul>
-		<li>Poop.</li>
-		<li>Wet dog smell.</li>
-		<li>Uncontrollable sock lust.</li>
+		<li>The sun</li>
+		<li>Comets</li>
+		<li>Asteroids</li>
+		<li><a href="learn_more.html">Pluto</a></li>
+		<li>Dust</li>
 	</ul>
+	<table border="1">
+		<tr>
+			<th>Planet</th>
+			<th>Life?</th>
+			<th>Is it neat?</th>
+		</tr>		
+		<tr>
+			<td>Earth</td>
+			<td colspan="2">Yes</td>
+		</tr>
+		<tr>
+			<td>Other planets</td>
+			<td>?</td>
+			<td>yes</td>
+		</tr>
 
 
-	<form name="Dog" action="success.html">
-		<fieldset>
-		<div>
-		<input type= "checkbox" name="cb-agree" value="agree">
-			Dog's are the best pet!
-		</div>
-			<button type="submit">I agree</button>
-		</fieldset>
-	</form>
-	<h4>The page I examined.</h4>
-	<a href="http://www.dogster.com/">Is here</a>
-	<p>A few notes about why it looks <em>way</em> better than mine.</p>
-	<ul>
-		<li>Doesn't look like a geoscapes page.</li>
-		<li>Seems to be using a lot of scripts to do many different functions.</li>
-		<li>Has centered text.</li>
-		<li> uses a lot of the "span" tag also div with a class tag</li>
-	</ul>
+
+
+
+	</table>
+
+	
+ <form name="Planet" action ="success.html">
+    <fieldset>
+
+      <div>
+        <label>What is your favorite planet? </label>
+          <select name="pet">
+          <option value = "mercury">Mercury</option>
+          <option value = "venus"> Venus</option>
+          <option value = "earth">Earth</option>
+          <option value = "mars">Mars</option>
+          <option value = "jupiter">Jupiter</option>
+          <option value = "saturn">Saturn</option>
+          <option value = "uranus">Uranus</option>
+          <option value = "neptune">Neptune</option>
+
+          </select>
+      </div>
+      <div>
+      	<label>Why do you like it?</label>
+      	<input type="text" name="reason">
+      </div>
+      <div>
+        <input type= "checkbox" name="cb-agree" value="agree">
+
+          I am not an alien.
+      </div>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
 </body>
 </html>
