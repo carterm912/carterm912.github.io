@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>SPACE!</title>
+	<link rel="stylesheet" type="text/css" href="spacestyles.css">
 </head>
 <body>
+<main>
 	<h1>SPACE!</h1>
 	<p>A little bit about our solar system</p>
 	<img src="featured-space-policy.jpg">
@@ -28,46 +30,21 @@
 		<li><a href="learn_more.html">Pluto</a></li>
 		<li>Dust</li>
 	</ul>
-	<table border="1">
-		<tr>
-			<th>Planet</th>
-			<th>Life?</th>
-			<th>Is it neat?</th>
-		</tr>		
-		<tr>
-			<td>Earth</td>
-			<td colspan="2">Yes</td>
-		</tr>
-		<tr>
-			<td>Other planets</td>
-			<td>?</td>
-			<td>yes</td>
-		</tr>
-
-
-
-
-
-	</table>
-
-	
- <form name="Planet" action ="success.html">
-    <fieldset>
-
-      <div>
-        <label>What is your favorite planet? </label>
-          <select name="pet">
-          <option value = "mercury">Mercury</option>
-          <option value = "venus"> Venus</option>
-          <option value = "earth">Earth</option>
-          <option value = "mars">Mars</option>
-          <option value = "jupiter">Jupiter</option>
-          <option value = "saturn">Saturn</option>
-          <option value = "uranus">Uranus</option>
-          <option value = "neptune">Neptune</option>
-
-          </select>
-      </div>
+	<form name="Planet" action ="success.html">
+    	<fieldset>
+			<div>
+        		<label>What is your favorite planet? </label>
+          			<select name="pet">
+			    		<option value = "mercury">Mercury</option>
+			        	<option value = "venus"> Venus</option>
+			         	<option value = "earth">Earth</option>
+			        	<option value = "mars">Mars</option>
+			        	<option value = "jupiter">Jupiter</option>
+			        	<option value = "saturn">Saturn</option>
+			        	<option value = "uranus">Uranus</option>
+			        	<option value = "neptune">Neptune</option>
+					</select>
+			</div>
       <div>
       	<label>Why do you like it?</label>
       	<input type="text" name="reason">
@@ -80,5 +57,6 @@
       <button type="submit">Submit</button>
     </fieldset>
   </form>
+  </main>
 </body>
 </html>
